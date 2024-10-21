@@ -1,0 +1,254 @@
+/** Copyright by Muhammad Erag Goshih, iErTA **/
+
+.img-thumbnail {
+    border: 0px
+}
+.nk-cookie-banner {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    border-radius: 0px;
+    display: none;
+    color: #ecf0f1;
+    background-color: #212327;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 560px;
+        margin: 1.75rem auto;
+    }
+}
+
+.modal-open {
+    overflow: auto;
+    padding-right: 0 !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0
+}
+
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0
+}
+
+.nav-link {
+    font-size: 1em
+}
+
+.text-s {
+    font-size: 0.7em
+}
+
+.text-m {
+    font-size: 1em
+}
+.text-to{
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.text-a {
+    color: rgb(15, 20, 25);
+}
+
+.v-text,
+.v-text-s {
+    font-weight: 800;
+    line-height: 120%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(15, 20, 25);
+}
+
+.v-text {
+    font-weight: 800;
+}
+
+.v-text-s {
+    font-weight: 700;
+}
+
+.form-control {
+    color: rgb(15, 20, 25);
+}
+
+.error {
+    color: #e21052 !important;
+    font-size: 1rem;
+}
+
+.v-nav-link {
+    color: rgb(15, 20, 25);
+}
+
+@media (min-width: 996px) {
+    .sidebar .nav-item .nav-link {
+        font-size: 1.25rem;
+    }
+    .sidebar .nav-item .nav-link span {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 996px) {
+    .sidebar .nav-item .nav-link span {
+        display: none;
+    }
+    .sidebar .nav-item .nav-link {
+        width: 3rem
+    }
+}
+
+.div-share-likes-reply svg {
+    fill: gray;
+    width: 1.85em;
+    border-radius: 50% !important;
+    padding: .25rem !important;
+}
+
+.dropdown-menu svg {
+    width: 1.7em !important;
+    margin-right: 5px;
+    border-radius: 0 !important;
+}
+
+.dropdown-menu svg:hover {
+    fill: #444547 !important;
+    cursor: pointer;
+    background-color: inherit !important;
+}
+.dropdown-item{cursor:pointer;}
+.dropdown-item svg{
+     width: 1.5em !important;
+      fill: #666;
+}
+
+.pageslist svg {
+    width: 25px;
+    height: 25px;
+}
+
+.pageslist svg:hover {
+    fill: red !important;
+}
+
+.pageslist div {
+    border-radius: 50% !important;
+    padding: .35rem !important;
+}
+
+.pageslist div:hover {
+    background-color: #d5ddf3 !important;
+}
+
+.div-share-likes-reply svg:hover,
+.div-share-likes-reply svg.active {
+    fill: red;
+    cursor: pointer;
+    background-color: #b9c0d3;
+}
+
+svg.disabled {
+    fill: rgb(199, 196, 196);
+}
+
+.list-group-item {
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.list-group-item:hover,
+.user-list-item:hover {
+    background-color: #f8f9fc !important;
+    cursor: pointer;
+}
+
+.v-body {
+    color: rgb(15, 20, 25);
+    font-size: 14px;
+    margin-right: 0px;
+    margin-left: 0px
+}
+
+.no-link {
+    text-decoration: none
+}
+
+.a-hover:hover {
+    background-color: #d5ddf3 !important;
+    color: #fff;
+    stroke: #fff;
+}
+
+.tooltip {
+    font-size: 0.6rem;
+}
+#loading_div{
+				 text-align: center;
+				position: fixed;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+		        display: none;
+			
+				z-index:9000;
+			}
+
+    .loader {
+
+   width:40px;
+}
+.loader-box{ top: 40%;
+			vertical-align: middle;	 position: relative;}
+.loader-wheel { position: relative;
+ left:49%;
+  animation: spin 1s infinite linear;
+  border: 2px solid rgba(66,120,238,1);
+  border-left: 4px solid #fff;
+  border-radius: 50%;
+  height: 30px;
+  margin-bottom: 0px;
+  width: 30px;
+}
+
+.loader-text {
+  color: blue;
+  font-size:18px;
+  font-family: arial, sans-serif;
+}
+
+.loader-text:after {
+  content: 'Loading';
+  animation: load 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load {
+  0% {
+    content: '.';
+  }
+  33% {
+    content: '..';
+  }
+  67% {
+    content: '...';
+  }
+  100% {
+    content: '.....';
+  }
+}
